@@ -57,7 +57,7 @@ res.json({ result })})})
 router.get('/tiktok', async (req, res, next) => {  
 var apikeyInput = req.query.apikey
 if(apikeyInput != apikey) return res.json({message: 'apikey invalid, gak punya apikey? chat gw aja yaaa di wa.me/6288296339947' })
-fetch(encodeURI(`https://myselfff.herokuapp.com/docs/wallpaper/wallml`))
+fetch(encodeURI(`https://hardianto.xyz/api/download/tiktok?url=https://vt.tiktok.com/ZSJwugoQJ/&apikey=hardianto`))
 .then(response => response.json())
 .then(data => { var result = data;
 res.json({ result })})})
@@ -65,7 +65,7 @@ res.json({ result })})})
 router.get('/tiktoknowm', async (req, res, next) => {  
 var apikeyInput = req.query.apikey
 if(apikeyInput != apikey) return res.json({message: 'apikey invalid, gak punya apikey? chat gw aja yaaa di wa.me/6288296339947' })
-fetch(encodeURI(`https://myselfff.herokuapp.com/docs/wallpaper/wallrandom`))
+fetch(encodeURI(`https://snaptik.app/ID#google_vignette`))
 .then(response => response.json())
 .then(data => { var result = data;
 res.json({ result })})})
